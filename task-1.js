@@ -7,7 +7,7 @@
 
 let a = prompt('Введите любое число');
 let numberValue = +a;
-if (typeof numberValue !== 'number' || isNaN(result)) {
+if (typeof numberValue !== 'number' || isNaN(numberValue)) {
   console.log('Упс, кажется вы ошиблись')
 } else if (numberValue % 2 === 0) {
   console.log('Четное число')
